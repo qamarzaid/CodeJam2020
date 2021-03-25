@@ -18,11 +18,15 @@ of columns that contain repeated values.
 ```
 ##### Input
 ```
-The first line of the input gives the number of test cases, T. T test cases follow. Each starts with a line containing a single integer N: the size of the matrix to explore. Then, N lines follow. The i-th of these lines contains N integers Mi,1, Mi,2 ..., Mi,N. Mi,j is the integer in the i-th row and j-th column.
+The first line of the input gives the number of test cases, T. T test cases follow. Each starts with a line
+containing a single integer N: the size of the matrix to explore. Then, N lines follow. The i-th of these
+lines contains N integers Mi,1, Mi,2 ..., Mi,N. Mi,j is the integer in the i-th row and j-th column.
 ```
 ##### Output
 ```
-For each test case, output one line containing Case #x: k r c, where x is the test case number (starting from 1), k is the trace of the matrix, r is the number of rows of the matrix that contain repeated elements, and c is the number of columns of the matrix that contain repeated elements.
+For each test case, output one line containing Case #x: k r c, where x is the test case number (starting from 1),
+k is the trace of the matrix, r is the number of rows of the matrix that contain repeated elements, and c is the
+number of columns of the matrix that contain repeated elements.
 ```
 ##### Limits
 ##### Test set 1 (Visible Verdict)
