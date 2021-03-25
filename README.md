@@ -60,3 +60,57 @@ Case #3: 8 0 2
 ##### Code:
 ```python
 
+# template
+def  inp():
+	return(int(input()))
+def inlt():
+	return(list(map(int,input().split())))
+def insr():
+	s=input()
+	return(s[:len(s)-1])
+def invr():
+	return(map(int,input().split()))
+#for input
+
+
+# main code
+def solve():
+	n=inp()
+	arr=[]
+	for i in range (n):
+		s=inlt()
+		arr.append(s)
+	#return arr
+	k=0
+	for i in range(n):
+		k=k+arr[i][i]
+	#return k
+	r=[[0]* n for i in range(n)]
+	rcount=0
+	for i in range (n):
+		for j in range(n):
+			
+			r[i][arr[i][j]-1]+=1
+		if 0 in r[i]:
+			rcount=rcount+1
+
+	c=[[0]* n for i in range(n)]
+	ccount=0
+	for i in range (n):
+		for j in range(n):
+			c[i][(arr[j][i])-1]+=1
+		if 0 in c[i]:
+			ccount=ccount+1
+
+	print("Case #" + str(z+1) +":",k,rcount,ccount)
+	#print(r)
+
+	
+
+
+t=inp()
+for z in range (t):
+	solve()
+	
+	#print(z)
+```
