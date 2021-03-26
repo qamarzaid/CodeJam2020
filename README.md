@@ -137,3 +137,4 @@ S' is of minimum length.
 ```
 The first line of the input gives the number of test cases, T. T lines follow. Each line represents a test case and contains only the string S.
 ```
+#### Output:
