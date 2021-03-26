@@ -132,3 +132,5 @@ all parentheses in S' match some other parenthesis,
 removing any and all parentheses from S' results in S,
 each digit in S' is equal to its nesting depth, and
 S' is of minimum length.
+```
+#### Input
