@@ -156,3 +156,11 @@ Each character in S is either 0 or 1.
 ```
 Each character in S is a decimal digit between 0 and 9, inclusive.
 ```
+##### Sample Input:
+```
+4
+0000
+101
+111000
+1
+```
