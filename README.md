@@ -133,4 +133,7 @@ removing any and all parentheses from S' results in S,
 each digit in S' is equal to its nesting depth, and
 S' is of minimum length.
 ```
-#### Input
+#### Input:
+```
+The first line of the input gives the number of test cases, T. T lines follow. Each line represents a test case and contains only the string S.
+```
