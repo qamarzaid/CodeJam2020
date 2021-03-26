@@ -172,4 +172,49 @@ Case #3: (111)000
 Case #4: (1)
 ```
 ##### Code:
+```python
+#Template
+#for input
+def InP():
+	return int(input())
+
+def InL():
+	return (list(map(int,input().split())))
+
+def InS():
+	s=input()
+	return (s[:len(s)])
+
+def inV():
+	return map(int,input().split())
+
+
+
+#main code
+def Solution():
+	S=InS()
+	#print(S)
+	o=""
+	for i in range (len(S)):
+		o=o+("(" * int(S[i]))+ S[i]+(")"*int(S[i]))
+	#print(o)
+	n=["("]
+	if o[0]=="0":
+		n[0]="0"
+	for i in range(1,len(o)):
+		if o[i] =="(" and n[-1]==")":
+			n.pop()
+		else:
+			n.append(o[i])
+	A=""
+	print("Case #"+str(z+1)+ ":","",A.join(n))
+
+
+
+
+#iterator test case
+t=InP()
+for z in range(t):
+	Solution()
+	
 ```
