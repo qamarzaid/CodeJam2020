@@ -164,3 +164,10 @@ Each character in S is a decimal digit between 0 and 9, inclusive.
 111000
 1
 ```
+##### Sample Output:
+```
+Case #1: 0000
+Case #2: (1)0(1)
+Case #3: (111)000
+Case #4: (1)
+```
