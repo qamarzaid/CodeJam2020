@@ -142,13 +142,15 @@ Given a string of digits S, find another string S', comprised of parentheses and
 ```
 ##### Input:
 ```
-The first line of the input gives the number of test cases, T. T lines follow. Each line represents a test case and contains only the string S.
+The first line of the input gives the number of test cases, T. T lines follow. Each line represents
+a test case and contains only the string S.
 ```
 ##### Output:
 ```
-For each test case, output one line containing Case #x: y, where x is the test case number (starting from 1) and y is the string S' defined above.
+For each test case, output one line containing Case #x: y, where x is the test case number 
+(starting from 1) and y is the string S' defined above.
 ```
-#### Limits
+##### Limits
 ```
 Time limit: 20 seconds per test set.
 Memory limit: 1GB.
