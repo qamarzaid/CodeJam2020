@@ -119,7 +119,7 @@ for z in range (t):
 	#print(z)
 ```
 [Code Demo Link](https://replit.com/@ZaidQamar/vestigium#main.py)
-![]()
+![](https://media.giphy.com/media/zXmbOaTpbY6mA/giphy.gif)
 #### Problem: Nested Depth
 ```
 tl;dr: Given a string of digits S, insert a minimum number of opening and closing parentheses into it 
