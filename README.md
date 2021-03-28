@@ -1,7 +1,7 @@
 ## Google Codejam 2020
 ### Qualification Round
 ####  Problem: Vestigium
-```
+``````
 Vestigium means "trace" in Latin. In this problem we work with Latin squares and matrix traces.
 
 The trace of a square matrix is the sum of the values on the main diagonal (which runs from the
