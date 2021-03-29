@@ -239,4 +239,4 @@ for z in range(t):
 ## Google CodeJam 2021
 ### Qualification Round
 #### Problem: Reversort
-`
+
