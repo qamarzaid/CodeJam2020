@@ -23,7 +23,7 @@ containing a single integer N: the size of the matrix to explore. Then, N lines 
 lines contains N integers Mi,1, Mi,2 ..., Mi,N. Mi,j is the integer in the i-th row and j-th column.
 ```
 ##### Output
-
+```
 For each test case, output one line containing Case #x: k r c, where x is the test case number (starting from 1),
 k is the trace of the matrix, r is the number of rows of the matrix that contain repeated elements, and c is the
 number of columns of the matrix that contain repeated elements.
