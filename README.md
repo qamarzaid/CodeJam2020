@@ -1,4 +1,4 @@
-5412367
+412367
 ## Google Codejam 2020
 ### Qualification Round
 ####  Problem: Vestigium
