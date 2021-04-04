@@ -1,4 +1,4 @@
-1
+12
 ## Google Codejam 2020
 ### Qualification Round
 ####  Problem: Vestigium
